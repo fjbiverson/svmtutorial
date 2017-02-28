@@ -1,12 +1,12 @@
 # If you don't have them, install the required packages
-# install.packages("e1071")
+#install.packages("e1071")
 # install.packages("RTextTools")
 
 library(e1071)
 library(RTextTools)
 
 # Load the data from the csv file
-dataDirectory <- "D:/ClassifyTextWithR/" # put your own folder here
+dataDirectory <- "/Users/jianbinfeng/Workspace/Git/svmtutorial/svmtutorial/ClassifyTextWithR/" # put your own folder here
 data <- read.csv(paste(dataDirectory, 'sunnyData.csv', sep=""), header = TRUE)
 
 # Create the document term matrix
